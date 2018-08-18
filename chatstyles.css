@@ -1,0 +1,174 @@
+#cpchat-chatdivsmall{
+    width: 250px;
+    height: 40px;
+    overflow: hidden;
+    visibility: visible;
+    z-index: 2147483647;
+    border: 0px;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+#cpchat-chatdivbig{
+    width: 400px;
+    height: 450px;
+    overflow: scroll;
+    display: none;
+    z-index: 1024;
+    background: #c22312;
+    border-radius: 5px 5px 0 0;
+    border: 0px;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+#cpchat-chatContainer {
+    height: 100%;
+    box-shadow: inset 1px 1px 1px rgba(255,255,255,.2);
+}
+#cpchat-cpChatWrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    z-index:1024;
+}
+
+#cpchat-chatdivbig form{
+    background: whitesmoke;
+    padding: 8px;   
+    height: 390px;
+    border-radius: 4px;
+}
+#cpchat-formdiv {
+    padding:10px;
+}
+#cpchat-formheader{
+    height:40px;
+}
+#cpchat-formheader span{
+    display:initial;
+    color:white;
+    font-size: medium;
+}
+#cpchat-downicon {
+    width: 0; 
+    height: 0; 
+    margin: 4px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    padding: 10px 10px 0 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color:white;
+    float:right;
+    cursor: pointer;
+}
+#cpchat-chatdivbig label {
+  padding: 0 12px 0 0;
+  margin-top: 5px;
+  font-size: small;
+  display: block;
+}
+#cpchat-chatdivbig input[type=text], select, textarea{
+    width: 100%;
+    height: 35px;
+    padding: 6px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: medium;
+    font-family: "Open Sans", Verdana, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #2d2d2d;
+    margin: 0;
+    display: block;
+    outline: none;
+  }
+  textarea#cpchat-message {
+    min-height: 85px;
+  }
+
+#cpchat-nameValidate {
+    display: none;
+    font-size: 12px;
+    color: red;
+}
+#cpchat-nameValidate.show {
+    display: inline;
+}
+input#cpchat-start  {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: #0e68c2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: small;
+    line-height: 10px;
+    box-shadow: inset 1px -1px 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+input#cpchat-start:hover{
+    background: #117fee;
+}
+input#cpchat-start.disabled,
+input#cpchat-start.disabled:hover{
+    background-color: gray;
+    color:#5e6469;
+}
+
+#cpchat-chatdivbig ::-webkit-input-placeholder {
+    color:#aaa;
+}
+
+.Twilio-Chrome-Close:hover{
+    cursor: pointer;
+}
+
+#cpchat-channelMessage{
+    font-size: 14px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    font-weight: 600;
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}
+
+.cpchat-defaultButton{
+    font-size: medium;
+    background-color: #901103;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 1px rgba(255,255,255,.2);
+}
+.cpchat-defaultButton:hover {
+    background: #d21500;
+  }
+
+.cpchat-topleft{
+    top: 0px;
+    left: 15px;
+    position: fixed;
+}
+.cpchat-topright{
+    top: 0px;
+    right: 15px;
+    position: fixed;
+}
+.cpchat-bottomleft{
+    bottom: 0px;
+    left: 15px;
+    position: fixed;
+}
+.cpchat-bottomright{
+    bottom: 0px;
+    right: 15px;
+    position: fixed;
+}

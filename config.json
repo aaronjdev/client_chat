@@ -1,0 +1,78 @@
+{
+  "name":"",
+  "placement": {
+    "chatElementId": "",
+    "chatDynamicId": "",
+    "chatDynamicCorner": ""
+  },
+  "style": {
+    "chatButton": {
+      "chatButtonColor": "",
+      "chatButtonTextColor": "",
+      "chatButtonHover": "",
+      "chatButtonText": ""
+    },
+    "chatFrame": {
+      "color": "",
+      "textColor": ""
+    },
+    "startButton": {
+      "color": "",
+      "hoverColor": "",
+      "text": "",
+      "textColor": ""
+    },
+    "form": {
+      "formHeaderText": ""
+    }
+  },
+  "language": "en-US",
+  "channel": {
+    "windowControls": {
+      "visible": true,
+      "closeCallback": "closeCallback"
+    },
+    "header": {
+      "visible": true,
+      "image": {
+        "visible": false
+      },
+      "title": {
+        "visible": true,
+        "default": "CallPotential"
+      }
+    },
+    "showTypingIndicator": true,
+    "showReadStatus": true,
+    "message": {
+      "yourDefaultName": "You",
+      "theirDefaultName": "Agent",
+      "yourFriendlyNameOverride": true,
+      "theirFriendlyNameOverride": true
+    },
+    "visual": {
+      "colorTheme": "LightTheme",
+      "messageStyle": "rounded",
+      "inputAreaStyle": "Bubble",
+      "override": {
+        "header": {
+          "background": "#c22312",
+          "color": "#FFFFFF"
+        },
+        "sendButton": {
+          "background": "#0e68c2",
+          "color": "#FFFFFF"
+        },
+        "outgoingMessage": {
+          "body": {
+            "background": "#000064",
+            "color": "#FFFFFF"
+          },
+          "info": {
+            "color": "#CCCCCC"
+          }
+        }
+      }
+    }
+  }
+}
